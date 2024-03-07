@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <label for="name">Seu Nome</label>
+        <input id="name" type="text" placeholder="Seu Nome" />
+        <p></p>
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" placeholder="Seu email" />
+        <p></p>
+        <label for="tel"> Seu Telefone</label>
+        <input id="tel" type="tel" placeholder="Seu número de telefone"/>
+        <p></p>
+        <input type="number" max="10" min="2" step="2"/>
+        <p></p>
+        <input type="file" />
+        <p></p>
+        <input type="color" />
+        <p></p>
+        <label for="checkbox">Aceito os termos</label>
+        <input id="checkbox" type="checkbox" />
+        <p>
+            Qual cor você prefere?
+        </p>
+        <input name="cor preferida" id="cor_amarela" type="radio" /> <label for="cor_amarela">Amarelo</label>
+        <input name="cor preferida" id="cor_azul" type="radio" /> <label for="cor_azul">Azul</label>
+        <input name="cor preferida" id="cor_branca" type="radio" /> <label for="cor_branca">Branco</label>
+        <p></p>
+        <label>Qual filme você prefere?</label>
+        <select multiple>
+            <option>Gente Grande</option>
+            <option>Barbie</option>
+            <option>Bastardos Inglórios</option>
+            <option>Django Livre</option>
+            <option>O bom, o mal e o feio</option>
+        </select>
+        <p></p>
+        <label>Deixe aqui seu cometário ou reclamação</label>
+        <textarea></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
